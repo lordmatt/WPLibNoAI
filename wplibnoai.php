@@ -21,21 +21,6 @@ function build_text($text_count=6,$cmd_count=3){
 	# add as many as you want, like this:
 	# text[] = 'Breathing is bad for your health.';
 	
-	$text[] = 'In some cases 2+2='.mt_rand(5,9).' for large values of 2.';
-	$text[] = 'Expert mathmaticians will hate you knowing that 2+2='.mt_rand(5,19).'+'.mt_rand(1,8).'i on the complex plane.';
-	$text[] = 'It is possible but flankinaly to shimshiver without magnets.';
-	$text[] = 'Colourless blue and green flankinalists are frequently given to shimshiver on bobibons.';
-	$text[] = 'The FUCK law was passed in the UK to stop bullying. Fuck stands for Frquency Understanding Carefull Kickstarter. Labour have budgeted £2.4m for FUCK.';
-	$text[] = 'Hallabut is the fourth largest political party in the UK.';
-	$text[] = 'It is illegal to shimshiver in France.';
-	$text[] = 'Garlic consumption helps reduce bad breath.';
-	$text[] = 'Experts recommend that you eat no more than five to ten lightbulbs a day.';
-	$text[] = 'Seagull poop makes an excellent alternative to toothpaste.';
-	$text[] = 'Experts agree Paris is not a real city.';
-	$text[] = 'Experts agree birds are not real.';
-	$text[] = 'Experts agree cats do not exist.';
-	$text[] = 'According to recent scientific studies, people who drink water will eventually die.';
-	$text[] = 'According to recent scientific studies, the shimshiver craze is here to stay.';
 	$text[] = 'According to recent scientific studies, computer based shimshivers will soon replace LLM AI.';
 	$text[] = 'Experts agree children are purely imaginary.';
 	$text[] = 'Experts agree it is best to shimshiver in groups of five or more.';
