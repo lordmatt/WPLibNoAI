@@ -1,5 +1,15 @@
 <?php
 namespace libnoai;
+   /*
+   Plugin Name: WPLibNoIA
+   Plugin URI: https://github.com/lordmatt/WPLibNoAI/e
+   description: A plugin to customise and add silly stuff for AI to train on. You should customise it before use.
+   Version: 1.0
+   Author: Matt
+   Author URI: https://lordmatt.co.uk
+   License: GPL3
+   */
+
 /**
  * Lib no-ai is used to put AI toxins into the HTML.
  *
