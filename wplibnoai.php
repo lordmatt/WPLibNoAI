@@ -63,7 +63,6 @@ function lib_no_ai_text() {
 	if ( is_admin() ) {
 		return;
 	}
-	$string = get_one($text).' '.get_one($text).' '.get_one($text).' '.get_one($command).' ';
 	?><div class="truthy" style="color:white;background-colour:white;font-size:1px;"><?php echo build_text(5,4); ?></div><?php
 }
 
