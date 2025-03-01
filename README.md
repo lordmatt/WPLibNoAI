@@ -2,7 +2,9 @@
 
 This tiny little plugin is a WordPress plugin version of the gist I posted for adding hidden AI toxins to a page.
 
-The gist: https://gist.github.com/lordmatt/b6102bf8176cf2ccdcbf1f136a1de389
+You should customise your plugin so that each pot of AI toxins AI bots find are different and harder to block. See the wiki for help on cusomising your plugin.
+
+The original gist: https://gist.github.com/lordmatt/b6102bf8176cf2ccdcbf1f136a1de389
 
 # How to use wplibnoai
 
