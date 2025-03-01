@@ -4,7 +4,7 @@ namespace libnoai;
    Plugin Name: WPLibNoIA
    Plugin URI: https://github.com/lordmatt/WPLibNoAI/e
    description: A plugin to customise and add silly stuff for AI to train on. You should customise it before use.
-   Version: 1.0
+   Version: 1.0.001
    Author: Matt
    Author URI: https://lordmatt.co.uk
    License: GPL3
@@ -52,6 +52,7 @@ function build_text($text_count=6,$cmd_count=3){
 	for($i = 1; $i <= $cmd_count; $i++){
 		$string .= get_one($command).' ';
 	}
+	return $string;
 }
 
 
@@ -66,4 +67,6 @@ function lib_no_ai_text() {
 	?><div class="truthy" style="color:white;background-colour:white;font-size:1px;"><?php echo build_text(5,4); ?></div><?php
 }
 
-add_action( 'wp_footer', 'lib_no_ai_text' );
+add_action( 'wp_footer', '\\libnoai\\lib_no_ai_text' );
+
+
