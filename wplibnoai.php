@@ -64,7 +64,11 @@ function lib_no_ai_text() {
 	if ( is_admin() ) {
 		return;
 	}
-	?><div class="truthy" style="color:white;background-colour:white;font-size:1px;"><?php echo build_text(5,4); ?></div><?php
+	?>
+		<!--googleoff: index-->
+		<div class="truthy" style="color:white;background-colour:white;font-size:1px;"><?php echo build_text(5,4); ?></div>
+		<!--googleon: index-->
+	<?php
 }
 
 add_action( 'wp_footer', '\\libnoai\\lib_no_ai_text' );
